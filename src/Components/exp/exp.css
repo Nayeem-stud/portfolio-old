@@ -1,0 +1,128 @@
+.ebox1{
+    height: auto;
+    width: 100%;
+    background: #1d3557;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ebox11{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.ebox111{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ebox1111{
+    height: 100%;
+width: auto;
+color:  #ffbd39;
+display: flex;
+justify-content: center;
+align-items:center;
+font-size: 1.5em;
+font-weight: bold;
+text-shadow:2px 2px 5px #1d3557;
+}
+.ebox112{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.eboxx{
+    display: flex;
+    margin: 3%;
+}
+.ebox01, .ebox02{
+    width: 48%;
+    height: 100%;
+    background-color: #1d3557;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5%;
+}
+.eboxp:hover{
+    color:#e63946;
+}
+.ebo{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.eboxp{
+    width: 100%;
+    height: 15%;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #ffbd39;
+}
+
+.eboxo{
+    width: 100%;
+    height: 10%;
+    font-size: 0.8em;
+}
+.eboxi{
+    width: 100%;
+    height: 75%;
+    font-size: 0.6em;
+}
+@media (max-width: 1100px) {
+   .ebox112{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
+   }
+   .eboxi{
+    height: auto;
+    text-align: center;
+   }
+   .eboxo{
+    height: auto;
+    text-align: center;
+   }
+   .ebox1{
+    height: auto;
+    width: 100%;
+   }
+   .eboxp{
+    height: auto;
+    margin: 2px;
+   }
+   .eboxx{
+    height: auto;
+    flex-direction: column;
+}
+   .ebox111{
+    margin-top: 2%;
+   }
+   .ebox01, .ebox02{
+    height: auto;
+    width: 100%;
+   }
+   .ebo{
+    margin: 3%;
+   }
+   .eboxp{
+    text-align: center;
+   }
+ 
+     }

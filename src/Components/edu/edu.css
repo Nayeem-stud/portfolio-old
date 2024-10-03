@@ -1,0 +1,129 @@
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
+.qbox1{
+    height: 750px;
+    width: 100%;
+    background: #f1faee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qbox11{
+height: 10%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.qbox111{
+height: 100%;
+width: auto;
+color:  #e63946;
+display: flex;
+justify-content: center;
+align-items:flex-end;
+font-size: 1.5em;
+font-weight: bold;
+text-shadow: 2px 2px 5px #a8dadc;
+}
+.qbox22{
+height: 79%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.qbox221{
+    height: 90%;
+    width: 75%;
+}
+.qbox2233, .qbox2222, .qbox2211{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    
+}
+.qbox01{
+    height: 100%;
+    width: 30%;
+    font-size: 0.9em;
+    color: #1d3557;
+    text-align: right;
+}
+.qbox02{
+    height: 100%;
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qbox02 i{
+    font-size: 1.3em;
+    padding: 15%;
+    border-radius: 50%;
+    background:  #e63946;
+}
+.qbox03{
+    height: 100%;
+    width: 62%; 
+}
+.qbox77{
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    background-color: #1d3557;
+    padding: 1%;
+
+}
+.timeline{
+    height: 100%;
+    width: 3px;
+    background:  #e63946;
+}
+.qbox001{
+text-align: left;
+margin: 1% 1% 1% 2%;
+font-size: 1.0em;
+color:  #a8dadc;
+font-weight: bold;
+}
+.qbox002{
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.7em;
+    color: #f1faee;
+    }
+.qbox003{
+    text-align: left;
+    margin: 2% 1% 1% 2%;
+    font-size: 0.9em;
+}
+.qbox77{
+    height: auto;
+}
+
+@media (max-width: 1300px) {
+    .qbox77{
+        height: auto;
+    }
+    
+         }
+@media (max-width: 1100px) {
+.qbox22{
+    height: auto;
+    margin-top: 4%;
+}
+.qbox02 i{
+    display: none;
+}
+.qbox2211, .qbox2222, .qbox2233{
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+}
+     }
+     .extrbox{
+        height: 11%;
+        width: 100%;
+     }

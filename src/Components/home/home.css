@@ -1,0 +1,168 @@
+
+.hbox1{
+    height: auto;
+    width: 100%;
+    background-color: #f1faee;
+    display: flex;
+    flex-direction: column;
+    z-index:1;
+    animation: fadeIn 2s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+
+.hbox11{
+    width: 100%; 
+    height: auto;
+    background-color: #f1faee;
+    display: flex;
+}
+.hbox12{
+    height: 10%;
+    width: 100%;
+    background-color: #f1faee;
+}
+.hbox111112{
+  height: 10%;
+  width: 100%;
+  background-color: #f1faee;
+}
+
+.hbox111{
+    height: 100%;
+    width: 50%;
+    background-color: #f1faee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hbox112{
+    height: 100%;
+    width: 50%;
+    background-color: #f1faee;
+}
+.hbox1111{
+    height: 75%;
+    width: 60%;
+    background-color: #f1faee;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 17%;
+    margin-top: 11%;
+}
+.hbox9{
+    font-size:medium;
+    font-weight: 400 poppins;
+    color: #457b9d ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3%;
+}
+.hbox999{
+    font-weight:900;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+.bbb{
+    color:#1d3557;
+}
+.bqb{
+  color:#e63946;
+}
+.hbox99{
+    margin:10% 5% 10% 0%;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    position: static;
+}
+.hbox8{
+    font-size: 1.2em;
+    margin-top: 2%;
+    color: #1d3557;
+}
+.typing-container {
+    height: 24px; 
+  }
+
+  .typing-text {
+    display: inline-block;
+    white-space: nowrap; 
+    color: #e63946;
+    overflow: hidden;
+  }
+  .social-buttons-container {
+    display: flex;
+    margin-top: 2%;
+  }
+  
+  .social-button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .linkedin {
+    background-color: #1d3557;
+    color: #f1faee;
+  }
+  
+  .github {
+    background-color: #f1faee;
+    color: #1d3557; 
+    border:#1d3557 solid 2px;
+  }
+  
+  .social-button:hover {
+    background-color: #29bf12;
+    transform: scale(1.1);
+  }
+  @media (max-width: 1100px) {
+    .hbox1{
+      height: auto;
+      display: flex;
+    }
+    .hbox11{
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+    .hbox111{
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+    .hbox9{
+      text-align: center;
+    }
+    .hbox999, .hbox8, .hbox99{
+      text-align: center;
+    }
+    .hbox98{
+      width: 100%;
+    }
+    .social-buttons-container{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-button{
+      padding: 15px 20px;
+    }
+  }

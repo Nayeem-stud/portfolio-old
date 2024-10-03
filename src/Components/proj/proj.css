@@ -1,0 +1,164 @@
+.pbox1{
+    height: auto;
+    width: 100%;
+    background: #a8dadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #1d3557;
+}
+.pbox0{
+    height: 90%;
+    width: 80%; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.pbox11{
+    display: flex;
+    height: 10%; 
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.pback{
+    width: 100%;
+    height: 100px;
+    color: #e63946 ;
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.pbox22{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(180deg, #457b9d,#f1faee,#457b9d);
+    margin-top: 3%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pbox222, .pbox333{
+display: flex;
+height: 50%;
+width: 90%;
+justify-content:space-between;
+border-radius: 25px;
+margin: 2%;
+}
+.pbox70{
+    width: 100%;
+    height: 50px;
+}
+.pbox0p, .pbox0o, .pbox0i{
+    width: 32%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.pbox0p:hover, .pbox0o:hover, .pbox0i:hover{
+    border: 3px solid   #1d3557;
+   
+}
+.pimg{
+    height: 40%;
+    width: 100%;
+}
+.imgeve{
+height: 100%;
+width: 100%;
+border-radius: 12px 12px 0 0;
+}
+.imgevee{
+height: 100%;
+width: 100%;
+border-radius: 12px 12px 0 0;
+}
+.imgeveee{
+height: 100%;
+width: 100%;
+border-radius: 12px 12px 0 0 ;
+}
+.pronam{
+    width: 80%;
+    margin: 6%;
+    text-align: center;
+    font-weight: bold;
+    color:  #f1faee;
+    text-shadow: 2px 2px 5px  rgb(0, 0, 0);
+}
+.prodis{
+    width: 80%;
+    font-size: 0.6em;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    text-align: center;
+    color: #1d3557;
+}
+.proj6git{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .projbut{
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1d3557;
+    font-size: 16px;
+    color: #f1faee;
+    border-radius: 15px;
+    border: none;
+    
+  }
+  .proj6but a{
+    text-decoration: none;
+  }
+  .projbut:hover{
+    background-color: #29bf12;
+    color: #fff;
+  }
+  @media (max-width: 860px) {
+    .pbox1{
+        height: auto;
+        width: 100%;
+    }
+    .pbox222, .pbox333{
+        display: flex;
+        flex-direction: column;
+    }
+    .pback{
+        display: none;
+    }
+    .pbox11{
+        margin-top: 4%;
+    }
+    .pbox0p, .pbox0o, .pbox0i{
+        width: 90%;
+        margin-top: 5%;
+    }
+    .projbut{
+        margin-top: 0;
+        padding: 5px 10px;
+    }
+    .proj6git{
+        margin-bottom: 3%;
+    }
+    
+      }
+  
