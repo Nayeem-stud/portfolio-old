@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Personal Portfolio - old
 
 This is my personal portfolio, showcasing the work I've done, my skills, and contact information. It's built with **React**, **HTML**, **CSS**, and **JavaScript**, and it's deployed on GitHub Pages.
 
@@ -24,4 +24,4 @@ To get a local copy up and running follow these steps.
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/Nayeem-stud/portfolio-old.git
