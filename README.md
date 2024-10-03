@@ -12,7 +12,7 @@ This is my personal portfolio, showcasing the work I've done, my skills, and con
 
 ## Demo
 
-You can try the demo of the QR Code Generator at: [Demo Link](https://portfolio-old-nayeem.netlify.app/)
+You can try the demo of the Old-Portfolio at: [Demo Link](https://portfolio-old-nayeem.netlify.app/)
 
 ## Installation
 
